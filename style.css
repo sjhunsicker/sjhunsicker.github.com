@@ -49,3 +49,9 @@ table {
 
 
 
+body {font-family:georgia;}
+nav {width:1000px; margin:0 auto:overflow ;}
+h1 {color:#333; font-family:Arial; font-size:24px; margin-bottom: 25px; float:left;}
+p {clear:both;}
+.wrapper {width:960px; margin: 0 auto;}
+
