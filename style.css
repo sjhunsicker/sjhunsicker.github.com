@@ -1,57 +1,70 @@
-/**
- * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
- * http://cssreset.com
- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.darkBG {
+	background: #999;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.darkerBG {
+	background: #666;
 }
-body {
-	line-height: 1;
+.darkestBG {
+	background: #333 ;
 }
-ol, ul {
-	list-style: none;
+.myPanel {
+	border: 1px solid #999;
+	border-radius: 5px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin: 3%;
+	box-shadow: 0px 0px 4px #ccc;
 }
-blockquote, q {
-	quotes: none;
+.myPanel .heading {
+	background: #999;
+	border: 1px solid #666;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #666;
+	padding: 10px 20px
+
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.myPanel .body{
+	padding: 10px 20px;
 }
 
+.myPanel .showOnHover {
+	display: none;
+}
 
+.myPanel:hover {
+	box-shadow: 0px 0px 8px #666;
+	border: 2px solid #999;
+}
 
+.myPanel:hover .showOnHover {
+	display:inline-block;
+}
 
-body {font-family:georgia;}
-nav {width:1000px; margin:0 auto:overflow ;}
-h1 {color:#333; font-family:Arial; font-size:24px; margin-bottom: 25px; float:left;}
-p {clear:both;}
-.wrapper {width:960px; margin: 0 auto;}
+.image {
+	position: relative;
+	width: 100%; 
+}
 
+h2 span {
+	color: white;
+	font-family: 'Overlock', cursive;
+	font-size: 60px;
+	letter-spacing: 1px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0.7);
+	padding: 15px;
+	height: 100%
+
+}
+
+h2 {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
