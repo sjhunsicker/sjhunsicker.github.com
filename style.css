@@ -54,9 +54,8 @@ h2 span {
 	display: inline-block;
 	font-family: 'Overlock', cursive;
 	font-size: 60px;
-	letter-spacing: 1px;
-	background: rgb(0,0,0);
-	background: rgba(0,0,0.7);
+	letter-spacing: 3px;
+	
 	padding: 0px 10px 0px 10px;
 	
 
