@@ -7,7 +7,7 @@
 
 h2 {
 	text-align: center;
-	padding: 0px 0px 15px 0px;
+	padding: 5px 0px 0px 0px;
 }
 
 h2 span {
@@ -16,6 +16,38 @@ h2 span {
 	display: inline-block;
 	font-family: 'Overlock', cursive;
 	font-size: 50px;
-	letter-spacing: 3px;
+	font-weight: 900;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h3 span {
+	clear: both;
+	color: white;
+	display: inline-block;
+	font-family: 'Overlock', cursive;
+	font-size: 40px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	padding: 0px 0px 15px 0px;
+}
+
+ul span {
+	clear: both;
+	color: white;
+	display: inline-block;
+	font-family: 'Overlock', cursive;
+	font-size: 17px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	list-style: none;
 	text-align: center;
 }
