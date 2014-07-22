@@ -1,6 +1,6 @@
 .thePanel {
     text-align:center;
-    margin-top:100px;
+    margin-top:80px;
     margin-bottom:0px;
     padding:0px;
     }
@@ -15,9 +15,9 @@ h2 span {
 	color: white;
 	display: inline-block;
 	font-family: 'Overlock', cursive;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: 900;
-	letter-spacing: 4px;
+	letter-spacing: 3.5px;
 	text-align: center;
 }
 
@@ -27,27 +27,41 @@ h3 {
 
 h3 span {
 	clear: both;
-	color: white;
+	color: white ;
 	display: inline-block;
 	font-family: 'Overlock', cursive;
-	font-size: 40px;
+	font-size: 45px;
 	letter-spacing: 1px;
 	text-align: center;
 }
 
 ul {
 	text-align: center;
-	padding: 0px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 ul span {
 	clear: both;
-	color: white;
+	color: #C0C0C0 ;
 	display: inline-block;
 	font-family: 'Overlock', cursive;
-	font-size: 17px;
-	font-weight: 200;
+	font-size: 22px;
+	font-weight: 100;
 	letter-spacing: 1px;
 	list-style: none;
+	padding: 5px 0px;
 	text-align: center;
 }
+
+.leftleg {
+    text-align:right;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+.rightleg {
+	text-align:left;
+    margin-bottom:0px;
+    padding:0px;
+}
+
