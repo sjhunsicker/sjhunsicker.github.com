@@ -30,14 +30,14 @@ h3 span {
 	color: white ;
 	display: inline-block;
 	font-family: 'Overlock', cursive;
-	font-size: 45px;
+	font-size: 38px;
 	letter-spacing: 1px;
 	text-align: center;
 }
 
 ul {
 	text-align: center;
-	padding: 0px 0px 10px 0px;
+	padding: 0px 0px 15px 0px;
 }
 
 ul span {
@@ -49,19 +49,23 @@ ul span {
 	font-weight: 100;
 	letter-spacing: 1px;
 	list-style: none;
-	padding: 5px 0px;
+	padding: 0px 0px;
 	text-align: center;
 }
 
-.leftleg {
-    text-align:right;
+.iconRow {
+    text-align:center;
     margin-bottom:0px;
+    margin-top: 10px;
     padding:0px;
 }
 
-.rightleg {
-	text-align:left;
-    margin-bottom:0px;
-    padding:0px;
+footer {
+	font-color: white;
+	font-family: 'Overlock', cursive;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin-top: 40px;
 }
 
