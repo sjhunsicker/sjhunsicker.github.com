@@ -1,6 +1,6 @@
 .thePanel {
     text-align:center;
-    margin-top:65px;
+    margin-top: 25px;
     margin-bottom:0px;
     padding:0px;
     }
@@ -16,7 +16,6 @@ h2 span {
 	clear: both;
 	color: white;
 	display: inline-block;
-	font-family: 'Overlock', cursive;
 	font-size: 45px;
 	letter-spacing: 3.5px;
 	text-align: center;
@@ -33,29 +32,10 @@ h3 span {
 	clear: both;
 	color: white ;
 	display: inline-block;
-	font-family: 'Overlock', cursive;
 	font-size: 25px;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-top: 0px;
-}
-
-ul {
-	text-align: center;
-	padding: 0px 0px 10px 0px;
-}
-
-ul span {
-	clear: both;
-	color: #C0C0C0 ;
-	display: inline-block;
-	font-family: 'Overlock', cursive;
-	font-size: 20px;
-	font-weight: 100;
-	letter-spacing: 1px;
-	list-style: none;
-	padding: 0px 0px;
-	text-align: center;
 }
 
 .iconRow {
@@ -65,12 +45,30 @@ ul span {
     padding:0px;
 }
 
+.attributes {
+	color: #C0C0C0;
+	font-size: 30px;
+	font-weight: 100;
+
+}
+
+.ratings {
+	text-align: center;
+}
+
+.ratings2 {
+	text-align: center;
+}
+
+
 footer {
 	font-color: white;
-	font-family: 'Overlock', cursive;
 	font-size: 14px;
 	font-weight: 100;
 	letter-spacing: 1px;
 	margin-top: 30px;
-}
 
+}
+ul {
+	list-style: none;
+}
