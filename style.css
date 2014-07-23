@@ -53,15 +53,11 @@ h3 span {
 }
 
 .ratings {
-	text-align: center;
+	text-align: left;
 }
 
 .ratings2 {
-	text-align: center;
-}
-
-img span {
-	 
+	text-align: left;
 }
 
 
@@ -76,3 +72,4 @@ footer {
 ul {
 	list-style: none;
 }
+
