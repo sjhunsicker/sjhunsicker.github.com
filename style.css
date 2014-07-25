@@ -2,20 +2,20 @@ body {
 	background-color: seagreen;
 }
 .thePanel {
-    text-align:center;
+    text-align: center;
     margin-top: 25px;
     margin-bottom:0px;
     padding:0px;
     }
 
-h2 {
+h1 {
 	text-align: center;
 	padding: 5px 0px 0px 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
-h2 span {
+h1 span {
 	clear: both;
 	color: white;
 	display: inline-block;
@@ -26,12 +26,12 @@ h2 span {
 	margin-top: 0px;
 }
 
-h3 {
+h2 {
 	text-align: center;
 	margin-top: 0px;
 }
 
-h3 span {
+h2 span {
 	clear: both;
 	color: white ;
 	display: inline-block;
@@ -65,6 +65,7 @@ h3 span {
 .col-md-4 {
 	margin-top: 10px;
 	margin-bottom: 15px;
+	text-align: center;
 }
 
 footer {
@@ -73,18 +74,3 @@ footer {
 	font-weight: 100;
 	letter-spacing: 1px;
 	margin-top: 30px;
-
-}
-ul {
-	list-style: none;
-}
-
-.iconsLeft {
-	text-align: right;
-	margin-top: 20px;
-}
-
-.iconsRight {
-	text-align: left;
-	margin-top: 20px;
-}
