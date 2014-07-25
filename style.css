@@ -16,7 +16,7 @@ h2 span {
 	clear: both;
 	color: white;
 	display: inline-block;
-	font-size: 45px;
+	font-size: 55px;
 	letter-spacing: 3.5px;
 	text-align: center;
 	margin-bottom: 0px;
@@ -32,7 +32,7 @@ h3 span {
 	clear: both;
 	color: white ;
 	display: inline-block;
-	font-size: 25px;
+	font-size: 30px;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-top: 0px;
@@ -40,26 +40,29 @@ h3 span {
 
 .iconRow {
     text-align:center;
-    margin-bottom:0px;
-    margin-top: 8px;
+    margin-bottom:40px;
+    margin-top: 20px;
     padding:0px;
 }
 
-.attributes {
+.attribute {
 	color: #C0C0C0;
 	font-size: 30px;
 	font-weight: 100;
-
 }
 
-.ratings {
-	text-align: left;
+.col-md-2 {
+	text-align: center;
 }
 
-.ratings2 {
-	text-align: left;
-}
+.col-sm-12 {
+	text-align: center;
 
+}
+.col-md-4 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
 
 footer {
 	font-color: white;
@@ -72,4 +75,3 @@ footer {
 ul {
 	list-style: none;
 }
-
